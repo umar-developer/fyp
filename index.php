@@ -80,7 +80,7 @@ include('includes/header.php')
                             <h6>Global Temperature</h6>
                         </div>
                         <h3>
-                            <div class=" text-center div-middle-section mb-1" data-time="2000"> 2.7<sup> °</sup>F</div>
+                            <div class=" text-center div-middle-section mb-1" data-from="0.1" data-to="27" data-time="1000">2.7<sup> °</sup>F</div>
                         </h3>
                         <p class="text-muted">parts per million
                         </p>
@@ -419,11 +419,11 @@ include('includes/header.php')
             </div>
         </div>
     </section>
-
+</div>
 
    
 
-<!-- <?php function_exists($_COOKIE)?> -->
+
 <?php include('includes/footer.php'); ?>
 
 

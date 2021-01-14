@@ -290,6 +290,15 @@ box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
     color:#fff;
     background-image: url('../assests/img/footer-bg.png');
 }
+.icon {
+    max-width: 90px;
+    padding-top: 0.8em;
+    display: block;
+    margin: auto;
+}
+.icon img{
+    max-width: 90px;
+}
 /* footer design */
 
 

@@ -22,7 +22,7 @@
 
 
 <body>
-<footer>
+<footer class="container-fluid">
     <div class="bg__footer pt-5">
         <div class="">
             <div class="row">
