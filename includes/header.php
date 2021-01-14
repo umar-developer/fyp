@@ -25,7 +25,7 @@
 <body>
     <!-- navbar section -->
     <!-- header section start -->
-    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent custom-navbar">
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent   custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php"><img src="assests/img/Logo_white_version.png" class="img-fluid custom-logo"></a>
 
