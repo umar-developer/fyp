@@ -1,0 +1,297 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar */
+.custom-navbar{
+    z-index: 1;
+}
+.home-section{
+     margin-top: -58px; 
+}
+.custom-logo{
+    max-width: 74px;
+   
+}
+
+.custom-header{
+    font-size: 40px;
+    font-weight: 900;
+}
+.demo{
+    width: 100%;
+    height: 375px !important;
+    max-height: 90%;
+}
+/* .goog-te-gadget .goog-te-combo{ */
+    /* margin: 4px 0; */
+    
+   
+
+    
+    
+    
+}
+
+
+
+
+
+
+/* navbar */
+/* forecast section */
+
+.change{
+    background-color:  goldenrod;
+    color: white;
+    
+    padding: 0.2em;
+    
+}
+.custom-line{
+border-bottom: 1px solid orange;
+padding-bottom: 12px;
+}
+
+.custom__background {
+    box-shadow: 0.5em 0 0 #fd5f00, -0.5em 0 0 #fd5f00;
+    background: orange;
+    color: white;
+    padding: .2em;
+    display: block !important;
+    align-content: center;
+    align-items: center;
+    max-width: 45%;
+    text-align: center;
+    position: relative;
+    bottom:25%;
+    left: 5%;
+    position: relative;
+    bottom: 20em !important;
+    left: 25%;
+}
+
+/* global climate  */
+.map .responsive-iframe {
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+}
+/* global climate */
+
+.video__controls{
+    min-width: 100%;
+    min-height: 50vh;
+}
+/* .goog-te-banner { */
+    /* display: none; */
+
+}
+
+/* .goog-te-gadget .goog-te-combo { */
+    /* margin: 0px 0; */
+    /* margin-left: .5em !important; */
+    /* padding: 1em !important; */
+    /* width: 10em; */
+    /* margin-top: 1em !important; */
+}
+
+/* .goog-logo-link { */
+    /* display: none !important; */
+}
+
+/* .goog-te-gadget { */
+    /* color: transparent !important; */
+}
+
+   
+}
+/* climate awareness */
+.what-we-do {
+    /* width:52%; */
+    font-weight: lighter;
+    border-bottom: 1px solid orange;
+    text-align: center;
+    margin: auto;
+    width: 52%;
+
+}
+
+.border-length {
+    width: 38.5%;
+    font-weight: lighter;
+    border-bottom: 1px solid orange;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.changes {
+    background-color: #9c1219f8;
+    color: white;
+    font-weight: bold;
+    padding: 0 .2em;
+}
+.icon  {
+    max-width: 90px;
+    padding-top: 0.8em;
+}
+
+.movement {
+    min-height: 30vh;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.8s linear;
+}
+
+.movement:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #D06427;
+    color: white;
+    box-shadow: -15px -15px #ffbb00;
+    transition: all 0.3s linear;
+}
+
+.green,
+.p {
+    padding: .4em 3em;
+}
+/*  */
+/* mission page css started  */
+.mission--header{
+    background-color: #F3F7FA;
+    min-height: 67.5vh;
+}
+.mission--copy h2{
+ font-size: 2.5em;
+ color:#2A344E;
+ line-height: 3rem;
+    font-weight: bold;
+
+}
+.mission--copy p{
+    color: #667082;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    font-weight: lighter;
+}
+.mission--counter{
+top: -6em;
+z-index: 2;
+background-color: #fff;
+border-radius: 10px;
+padding: 2em 2em;
+transition: .3s;
+position: relative;
+box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
+/* top:-3em; */
+}
+.mission--counter:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.div-parent-section{
+    font-size: 16px;
+    color:#2A344E;
+    }
+    .div-middle-section{
+        color:grey;
+    
+    }
+    .div-middle-section{
+        color: #667082;
+    }
+    .div-middle-section::before{
+      
+        display: inline-block;
+        content: '\2191';
+        vertical-align: middle;
+        color: darkgreen;
+        font-family: inherit;
+        font-size: 30px;
+        font-weight: lighter;
+        padding: 0 .3em .3em 0;
+        /* margin: 0 .6em 0 0; */
+    
+    }
+/*  */
+/*form button*/
+.form-buttom-custom {
+    padding: 10px;
+    background-color: #F5A52A;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 120px;
+}
+/*  right section div   */
+
+.volunteer-custom {
+
+    background-image: radial-gradient(#7FBD00, #000);
+    max-height: 50vh;
+}
+
+.volunteer-custom img {
+    max-width: 15em;
+    padding: 0em 1em;
+    text-align: center;
+}
+
+.head {
+
+    color: white;
+    padding: 0 1em;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+.button-volunteer {
+    padding: 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 800;
+    width: 150px;
+    transition: all .3s ease-in;
+}
+
+.form-check-label {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+
+}
+
+.button-volunteer:hover {
+    background-color: white;
+    color: black;
+    transform: scaleX(1.1);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+
+/* footer section code  */
+
+
+/* footer */
+.bg__footer{
+    min-height: 20vh;
+    background-color:rgba(158, 10, 55, 0.911);
+    color:#fff;
+    background-image: url('../assests/img/footer-bg.png');
+}
+/* footer design */
+
+
+
+/*  */
