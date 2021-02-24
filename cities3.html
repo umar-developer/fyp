@@ -1,0 +1,49 @@
+<html>
+  <head>
+     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/boostrap.min.css" integrity="sha384-BVYiiSIFEK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="jumbotron text-light bg-primary text-center font-weight-bold " >
+      <h2 class="text-color " >Get Current Weather</h2>
+
+    </div>
+
+     <div class="container" style="height: 600px;">
+        <div class="row" >
+          <h3 class="text-center text-primary mt-3">Enter City Name</h3>
+          <span id="error"></span>
+        </div>
+
+         <div class="row " id="rowDiv">
+           <input type="text" name="city" id="city" class="form-control"
+           placeholder="City Name">
+           <button id="submitWeather" class="btn btn-primary mt-3">Search City</button>
+         </div>
+         <div id="show" class="pt-5"> 
+          <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="row">Weather</th>
+                    <th scope="row">Description</th>
+                    <th scope="row">Temprature</th>
+                    <th scope="row">Pressure</th>
+                    <th scope="row">Humidty</th> 
+                    <th scope="row">Min Temperature</th>
+                    <th scope="row">Max Temprature</th>
+                    <th scope="row">Wind Speed</th>
+                    <th scope="row">Wind Degree</th>
+                </tr>
+            </thead>
+            <tbody id="showData">
+            </tbody>
+        </table>
+         </div>
+     </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="current.js"></script>
+  </body>
+</html>

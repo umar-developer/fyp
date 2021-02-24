@@ -4,20 +4,19 @@ body{
     margin: 0px;
 }
 /* navbar */
-.custom-navbar{
-    z-index: 1;
+.bg-light {
+    background-color: #410404 !important;
 }
-.home-section{
+/* .home-section{
      margin-top: -58px; 
-}
+} */
 .custom-logo{
     max-width: 74px;
    
 }
 
 .custom-header{
-    font-size: 40px;
-    font-weight: 900;
+  font-weight: bold;
 }
 .demo{
     width: 100%;
@@ -83,10 +82,7 @@ padding-bottom: 12px;
 }
 /* global climate */
 
-.video__controls{
-    min-width: 100%;
-    min-height: 50vh;
-}
+
 /* .goog-te-banner { */
     /* display: none; */
 
@@ -233,8 +229,8 @@ box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
 
 .volunteer-custom {
 
-    background-image: radial-gradient(#7FBD00, #000);
-    max-height: 50vh;
+    background-image: radial-gradient(#751002, #000);
+    max-height: 57vh;
 }
 
 .volunteer-custom img {
@@ -280,13 +276,14 @@ box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
 
 
 
+
 /* footer section code  */
 
 
 /* footer */
 .bg__footer{
     min-height: 20vh;
-    background-color:rgba(158, 10, 55, 0.911);
+    background-color:rgb(65, 4, 4);
     color:#fff;
     background-image: url('../assests/img/footer-bg.png');
 }
@@ -300,7 +297,126 @@ box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
     max-width: 90px;
 }
 /* footer design */
+/* donation form */
+
+/* clean css */
+.hamformone{
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+/* font-size:11px; */
+margin-top:0rem;
+max-width: 966px;
+margin-left: auto;
+margin-right: auto;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    border-radius: 4px;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    padding: 0 10px 10px 10px;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto !important;
+    border: none;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+.haminputfirst{
+    margin-left: 2rem;
+}
+.astaric{
+    color:red;
+    font-size: 12px;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+ .form-control{
+    margin-top: 2rem;
+}
+.schedular-border{
+    width: 995px;
+}
+@media (max-width:666px){
+    .form-control {
+        margin-top: 1rem;
+        margin-right: 0rem !important;
+        margin-left: 0rem;
+    }
+} 
+.custom{
+    margin-left:6rem;
+}
 
 
+/* .form-control {
+    background: #fff;
+    color: #525865;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+  } */
+/* 
+  .form-control:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+  }
 
-/*  */
+  .form-control:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+  } */
+  #success_message{ display: none;}
+  li{
+      margin-left:5px;
+  }
+  .md-top{
+      margin:auto;
+      width:100%;
+      text-align: center;
+      margin-top:5rem;
+  }
+/* donation form */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+   
+    color: #fff;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0, 0, 0, .5); */
+    color: white;
+
+
+}
+
+.climate-bg{
+    min-height: 15%;
+    
+    
+
+
+    }
